@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-DATA_FILE = r"C:\Users\ChristaTaylor\OneDrive - dottba.com\code\data\prem_list.csv"
+DATA_FILE = r"prem_list.csv"
 
 @st.cache_data
 def load_data():
